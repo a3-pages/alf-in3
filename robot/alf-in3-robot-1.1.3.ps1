@@ -1,7 +1,7 @@
 Add-Type -AssemblyName System.Windows.Forms
 [System.Windows.Forms.Application]::EnableVisualStyles()
 
-$EXTENSION_URL_BASE = "https://pages-a3-services.github.io/alf-in3"
+$EXTENSION_URL_BASE = "https://a3-pages.github.io/alf-in3"
 $EXTENSION_URL_ZIP  = "/release/alf-in3.zip"
 
 # Build the full ZIP download URL
@@ -50,7 +50,7 @@ foreach ($var in $envVars) {
 # Show MessageBox with path and all variables
 [System.Windows.Forms.MessageBox]::Show(
     "The Alf-in3 is unpacked into:`n`n$unpackDir`n`n$allVarsText`nThe path has been copied to clipboard.",
-    "Alf-in3 Rotot 1.1.2",
+    "Alf-in3 Rotot 1.1.3",
     [System.Windows.Forms.MessageBoxButtons]::OK,
     [System.Windows.Forms.MessageBoxIcon]::Information
 )

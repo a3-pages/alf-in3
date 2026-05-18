@@ -1,9 +1,9 @@
 #Install-Module -Name PS2EXE -Scope CurrentUser -Force -AllowClobber
 
-Invoke-PS2EXE -InputFile "alf-in3-robot-1.1.2.ps1" `
-              -OutputFile "alf-in3-robot-1.1.2.exe" `
+Invoke-PS2EXE -InputFile "alf-in3-robot-1.1.3.ps1" `
+              -OutputFile "alf-in3-robot-1.1.3.exe" `
               -IconFile "alf-in3.ico" `
-              -Version "1.1.2" `
+              -Version "1.1.3" `
               -Title "Alf-in3 Rotot" `
               -Product "Alf-in3 Rotot" `
               -Company "chzb" `
