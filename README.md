@@ -3,7 +3,7 @@
 - home: <https://a3-pages.github.io/alf-in3/>
 - repo: <https://github.com/a3-pages/alf-in3>
 - chrome-extension: <https://a3-pages.github.io/alf-in3/release/alf-in3.zip>
-- version: `1.1.0-1-ge6c284d`
+- version: `1.1.0-8-ga0c662c`
 
 ## 🤖 Alf-in₃ Robot v.1.1.3
 
